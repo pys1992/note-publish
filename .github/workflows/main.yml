@@ -17,8 +17,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-        with:
-          path: content
 
       - name: Deploy to Server
         uses: easingthemes/ssh-deploy@v2.1.5
