@@ -8836,4 +8836,12 @@ html[data-theme="light"] #right-sidebar .reveal h6 {
   min-height: 0;
   margin-top: 0px !important;
 }
+.cp__sidebar-layout .cp__sidebar-main-layout {
+  margin-right: var(--ls-right-sidebar-width);
+}
+.cp__right-sidebar {
+  display: block;
+  width: var(--ls-right-sidebar-width);
+  opacity: 1;
+}
 /* custom.css */
