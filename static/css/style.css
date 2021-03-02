@@ -8792,28 +8792,32 @@ html[data-theme="light"] #right-sidebar .reveal h6 {
 }
 .mousetrap:focus {
   background: var(--color-level-1);
-  border-radius: .25rem;
+  border-radius: 0.25rem;
 }
 .page-reference:hover {
   background: none;
 }
-.katex { 
-  font-size: 1.1em; 
+.katex {
+  font-size: 1.1em;
+}
+.katex .cjk_fallback {
+  font-style: italic;
+  font-size: 90%;
 }
 .katex .frac-line {
-  border-bottom-color: #433F38;
+  border-bottom-color: #433f38;
 }
 .block-ref {
   padding: 0;
 }
-.cp__right-sidebar-inner>div:nth-of-type(1) {
+.cp__right-sidebar-inner > div:nth-of-type(1) {
   position: sticky;
   top: 0;
   z-index: 2021;
   border-bottom: 1px solid var(--ls-border-color);
-  background-color: var(--ls-secondary-background-color)
+  background-color: var(--ls-secondary-background-color);
 }
-.cp__right-sidebar-inner>div:nth-of-type(2) {
+.cp__right-sidebar-inner > div:nth-of-type(2) {
   border-top: none;
 }
 #journals .journal-item {
