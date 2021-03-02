@@ -8785,7 +8785,7 @@ html[data-theme="light"] #right-sidebar .reveal h6 {
 
 /* custom.css */
 :root {
-  --ls-main-content-max-width: 1000px;
+  --ls-main-content-max-width: 900px;
 }
 #head {
   background: white;
