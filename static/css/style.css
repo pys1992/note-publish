@@ -8801,8 +8801,8 @@ html[data-theme="light"] #right-sidebar .reveal h6 {
   font-size: 1.1em;
 }
 .katex .cjk_fallback {
-  font-style: italic;
-  font-size: 90%;
+  font-size: 16px;
+  font-family: Inter;
 }
 .katex .frac-line {
   border-bottom-color: #433f38;
