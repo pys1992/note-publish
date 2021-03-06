@@ -8807,7 +8807,10 @@ html[data-theme="light"] #right-sidebar .reveal h6 {
 .katex .frac-line {
   border-bottom-color: #433f38;
 }
-.block-ref {
+.block-ref-wrap {
+  margin-left: -4px;
+}
+.block-ref-wrap .block-ref {
   padding: 0;
 }
 .cp__right-sidebar-inner > div:nth-of-type(1) {
@@ -8819,6 +8822,14 @@ html[data-theme="light"] #right-sidebar .reveal h6 {
 }
 .cp__right-sidebar-inner > div:nth-of-type(2) {
   border-top: none;
+}
+.external-link {
+  text-decoration: none;
+  border: none;
+}
+.external-link::after {
+  content: "\1F86D";
+  font-size: 90%;
 }
 #journals .journal-item {
   border-top: none;
