@@ -8847,4 +8847,10 @@ html[data-theme="light"] #right-sidebar .reveal h6 {
   min-height: 0;
   margin-top: 0px !important;
 }
+#search-wrapper mark {
+  padding: 0 !important;
+  border-radius: none !important;
+  background-color: transparent !important;
+  color: red !important;
+}
 /* custom.css */
